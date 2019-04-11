@@ -16,7 +16,8 @@ h2 {
 }
 
 .subtitle {
-  padding: 5px;
+  padding: 10px;
+  margin: 20px;
   color: #F44E3B;
   font-weight: bold;
 }
@@ -63,7 +64,6 @@ h2 {
   padding-top: 15vh;
   top: 0;
 }
-
 
 .contact-icon {
   display: inline-block;
@@ -124,7 +124,7 @@ nav ul li a:hover {
 
 
 @media all and (max-width: 735px) {
-  h1, h2 {
-    font-size: 150%;
+  * {
+    font-size: 120%;
   }
 }
