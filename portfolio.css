@@ -124,5 +124,7 @@ nav ul li a:hover {
 
 
 @media all and (max-width: 735px) {
-
-	}
+  h1, h2 {
+    font-size: 150%;
+  }
+}
