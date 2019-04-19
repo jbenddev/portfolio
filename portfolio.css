@@ -53,9 +53,37 @@ h2 {
   font-weight: bold;
   padding: 5px;
 }
+.project-tile a {
+  text-decoration: none;
+  color: #021D44;
+}
 .projects-outer {
   display: block;
-  margin-bottom: 20px;
+  margin: 40px;
+}
+.projects-under {
+  display: inline-block;
+  text-align: center;
+  background-color: #006400;
+  width: 300px;
+  height: 2.5em;
+  margin: 40px;
+  border: 2px solid #021D44;
+  box-shadow: 5px 5px 20px #021D44;
+}
+.projects-under a {
+  color: #021D44; 
+  font-weight: bold;
+}
+#profile-link {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  vertical-align: center;
+}
+#FCC-logo {
+  height: 2em;
+  vertical-align: bottom;
 }
 
 #contact {
@@ -134,7 +162,6 @@ nav ul li a:hover {
 
 
 @media all and (max-width: 735px) {
-  * {
-    font-size: 120%;
-  }
+nav ul {
+  text-align: center;
 }
